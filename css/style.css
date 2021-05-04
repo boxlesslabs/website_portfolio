@@ -1,0 +1,247 @@
+body {
+  margin: 0%;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  /* overflow: hidden; */
+} 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+  font-family: 'Comfortaa', cursive;
+}
+
+body,
+p,
+span,
+input {
+  font-family: 'Quicksand', sans-serif !important;
+}
+.uk-container-large {
+  max-width: 1300px !important;
+  margin: 0px auto;
+}
+/* app color style ends here */
+.mt-1 {
+  margin-top: 1rem !important;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mt-2h {
+  margin-bottom: 2.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.d-flx {
+  display: flex;
+}
+.al-s-c {
+  align-self: center;
+}
+.al-i-c {
+  align-items: center;
+}
+.j-c-c {
+  justify-content: center;
+}
+.j-c-sb {
+  justify-content: space-between;
+}
+
+/* layout styles starts here */
+.m-0 {
+  margin: 0;
+}
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mt-2h {
+  margin-top: 2.5rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.pb-2 {
+  padding-bottom: 2rem;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: .5rem;
+}
+.header, .footer {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+.header nav, .footer footer, .body > div {
+  padding: 2rem 1.5rem;
+}
+.footer {
+  bottom: 0;
+}
+.footer footer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.about, .contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+}
+.about .about-header h1,
+.contact .contact-header h1 {
+  font-size: 6rem;
+  font-weight: 300;
+}
+.about .about-header p,
+.contact .contact-header p {
+  font-size: 1.5rem;
+  color: #666;
+}
+.about-body .card {
+  padding: 3rem 2rem;
+  background: #272626;
+  color: white;
+  margin-right: 2rem;
+}
+.about-body .card p {
+  margin: 2rem 1rem;
+  line-height: 2rem;
+  font-size: 20px;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: #666;
+}
+.body h1 {
+  font-size: 9rem;
+  color: #222222;
+  margin: 1rem 0;
+}
+.body h3 {
+  color: rgb(102 102 102);
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+}
+.l-c-home li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+.l-c-home li:first-child {
+  border-right: 1px solid #222222;
+  padding-left: 0;
+}
+.btn-read-more {
+  position: absolute;
+  right: 20%;
+  top: 40%;
+  background: #1142cc;
+  color: white;
+  border-radius: 50%;
+  height: 100px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.active {
+  border-bottom: 5px solid #1142cc;
+}
+footer h3 {
+  margin-right: 2rem;
+}
+footer ul li {
+  display: inline-block;
+  margin: 0 .5rem;
+}
+footer ul li a img {
+  height: 30px;
+  width: auto;
+  border-radius: 5px;
+}
+.bg-overlay {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background: #c1bcbc87;
+  z-index: -1;
+}
+.about .about-body > div {
+  flex: 1;
+}
+.about-body .side ul {
+  margin-top: 1.5rem;
+  list-style: circle;
+  margin-left: 2rem;
+}
+.about ul li{
+  padding: .5rem 0;
+}
+.about-body .side a {
+  margin-top: 4rem;
+  display: block;
+  color: black;
+  font-size: 19px;
+}
+.contact .contact-header > div {
+  margin: 3rem 0;
+  background: white;
+  padding: 2rem;
+  width: 50%;
+  border-left: 1px dashed;
+}
+.contact ul li {
+  padding: 1rem;
+  background: #dcdcdc52;
+  margin: 1rem;
+  font-size: 16px;
+  color: #666;
+}
+.contact ul li a {
+  color: #666;
+}
